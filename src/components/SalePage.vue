@@ -19,7 +19,7 @@ export default{}
 
 <style>
     .sale{
-        margin-top: 40px;
+        margin: 80px 0;
         width: 100%;
         display: grid;
         place-items: center;

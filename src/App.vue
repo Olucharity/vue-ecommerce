@@ -2,17 +2,20 @@
   <NavBar navName="My Store"/>
   <HomePage />
   <SalePage />
+  <ContactPage />
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
 import HeroPage from './components/HeroPage.vue'
 import SalePage from './components/SalePage.vue'
+import ContactPage from './components/ContactPage.vue'
 export default {
   components: {
     'NavBar': NavBar,
     'HomePage': HeroPage,
-    'SalePage': SalePage
+    'SalePage': SalePage,
+    'ContactPage': ContactPage
   },
   data() {
     return {
