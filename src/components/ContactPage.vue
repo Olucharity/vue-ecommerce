@@ -42,6 +42,9 @@
         height: 350px;
         background: #010f22;
     }
+    .subscribe{
+        margin-bottom: -170px;
+    }
     .subscribe input{
         width: 270px;
         height: 35px;
@@ -59,9 +62,8 @@
         background: #1858b1;
     }
     .contact{
-        bottom: 30px;
         font-size: 16px;
+        margin-bottom: -20px;
         color: white;
-        position: fixed;
     }
 </style>

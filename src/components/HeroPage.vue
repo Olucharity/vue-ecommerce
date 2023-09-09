@@ -1,6 +1,11 @@
 <template>
     <div class="hero">
-        my name is stephen
+        <div class="description">
+        <h2>Welcome to Charity Store.</h2>
+        <p>No 1 rated store in Nigeria.</p>
+        <button>Explore</button>
+        </div>
+        
     </div>
 </template>
 
@@ -21,5 +26,26 @@ export default {
         display: grid;
         align-items: center;
         padding: 10px;
+        font-family: sans-serif;
+    }
+    .description{
+        margin-top: -150px;
+        margin-left: 30px;
+    }
+    .description h2{
+        font-size: 45px;
+    }
+    .description p{
+        font-size: 16px;
+        line-height: 35px;
+    }
+    .description button{
+        padding: 9px 18px;
+        border: none;
+        background: #1858b1;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 7px 0 #b1b0b0;
+        margin-top: 5px;
     }
 </style>
