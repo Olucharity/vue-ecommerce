@@ -49,4 +49,9 @@ export default {
         margin-right: 15px;
         font-size: 18px;
     }
+    @media screen and (max-width: 500px) {
+        ul{
+        margin-right: 0;
+    }
+    }
 </style>

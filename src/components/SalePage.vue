@@ -137,4 +137,38 @@ export default {
      background: #000;
      color: #fff;
 }
+button{
+    cursor: pointer;
+}
+@media screen and (max-width:900px){
+    .product {
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+    gap: 50px 30px;
+    width: 85%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .product{
+    gap: 50px 10px;
+    width: 100%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .product {
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+    gap: 50px 30px;
+    width: 85%;
+}
+}
+@media screen and (max-width:350px){
+    .product img{
+        width: 300px;
+    }
+}
 </style>

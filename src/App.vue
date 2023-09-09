@@ -1,5 +1,5 @@
 <template>
-  <NavBar navName="My Store"/>
+  <NavBar navName="Store"/>
   <HomePage />
   <SalePage />
   <ContactPage />
