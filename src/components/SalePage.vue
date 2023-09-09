@@ -116,6 +116,7 @@ export default {
     opacity: 0;
     visibility: hidden;
     transition: .3s ease-out;
+    margin-top: -5px;
 }
 .cart:hover .cartbtn{
     opacity: 1;
